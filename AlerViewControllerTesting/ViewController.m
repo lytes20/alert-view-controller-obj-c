@@ -22,31 +22,30 @@
 
 
 - (void)showAlertAction {
-
-    [self createAlert:@"ENIBU SEBABU" :@"Do me a favour please, gerrah  here men shit u know what syaing, gerra here!!!" :@"OKAY" :@"FUCK OFF"];
+    
+    [self createAlert:@"ENIBBU SEBBABBU" :@"Do me a favour please, gerra here men!! Shit u know what am saying!!" :[[NSArray alloc] initWithObjects:@"OKAY", @"FUCK OFF", nil]];
+    
 }
 
--(void)createAlert: (NSString *)alertTitle : (NSString *)alertMessage : (NSString *)positiveButtonMessage : (NSString *)otherButtonMessage{
+-(void)createAlert: (NSString *)alertTitle : (NSString *)alertMessage : (NSArray *)actionTitles{
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:alertTitle message:alertMessage preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction* yesButton = [UIAlertAction
-                                actionWithTitle:positiveButtonMessage
+    
+    for (id object in actionTitles) {
+        NSLog(@"%@", object);
+    
+    UIAlertAction* actionButton = [UIAlertAction
+                                actionWithTitle:object
                                 style:UIAlertActionStyleDefault
                                 handler:^(UIAlertAction * action) {
                                     //Handle your yes please button action here
                                     
                                 }];
     
-    UIAlertAction* noButton = [UIAlertAction
-                               actionWithTitle:otherButtonMessage
-                               style:UIAlertActionStyleDefault
-                               handler:^(UIAlertAction * action) {
-                                   //Handle no, thanks button
-                               }];
     
-    //Add your buttons to alert controller
+    [alert addAction:actionButton];
     
-    [alert addAction:yesButton];
-    [alert addAction:noButton];
+    
+}
     
     [self presentViewController:alert animated:YES completion:nil];
 }
