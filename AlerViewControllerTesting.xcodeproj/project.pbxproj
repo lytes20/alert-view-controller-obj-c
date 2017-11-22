@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F30A3A931FC573190019C460 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F30A3A921FC573190019C460 /* AppDelegate.m */; };
+		F30A3A961FC573190019C460 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30A3A951FC573190019C460 /* ViewController.m */; };
+		F30A3A991FC573190019C460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30A3A971FC573190019C460 /* Main.storyboard */; };
+		F30A3A9B1FC573190019C460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30A3A9A1FC573190019C460 /* Assets.xcassets */; };
+		F30A3A9E1FC573190019C460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30A3A9C1FC573190019C460 /* LaunchScreen.storyboard */; };
+		F30A3AA11FC573190019C460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F30A3AA01FC573190019C460 /* main.m */; };
+		F30A3AAB1FC573190019C460 /* AlerViewControllerTestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F30A3AAA1FC573190019C460 /* AlerViewControllerTestingTests.m */; };
+		F30A3AB61FC573190019C460 /* AlerViewControllerTestingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F30A3AB51FC573190019C460 /* AlerViewControllerTestingUITests.m */; };
+		F30A3AC41FC577FF0019C460 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30A3AC31FC577FF0019C460 /* Theme.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F30A3AA71FC573190019C460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30A3A861FC573190019C460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30A3A8D1FC573190019C460;
+			remoteInfo = AlerViewControllerTesting;
+		};
+		F30A3AB21FC573190019C460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30A3A861FC573190019C460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30A3A8D1FC573190019C460;
+			remoteInfo = AlerViewControllerTesting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F30A3A8E1FC573190019C460 /* AlerViewControllerTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlerViewControllerTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30A3A911FC573190019C460 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F30A3A921FC573190019C460 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F30A3A941FC573190019C460 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F30A3A951FC573190019C460 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F30A3A981FC573190019C460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F30A3A9A1FC573190019C460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F30A3A9D1FC573190019C460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F30A3A9F1FC573190019C460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30A3AA01FC573190019C460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F30A3AA61FC573190019C460 /* AlerViewControllerTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlerViewControllerTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30A3AAA1FC573190019C460 /* AlerViewControllerTestingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlerViewControllerTestingTests.m; sourceTree = "<group>"; };
+		F30A3AAC1FC573190019C460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30A3AB11FC573190019C460 /* AlerViewControllerTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlerViewControllerTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30A3AB51FC573190019C460 /* AlerViewControllerTestingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlerViewControllerTestingUITests.m; sourceTree = "<group>"; };
+		F30A3AB71FC573190019C460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30A3AC31FC577FF0019C460 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F30A3A8B1FC573190019C460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30A3AA31FC573190019C460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30A3AAE1FC573190019C460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F30A3A851FC573190019C460 = {
+			isa = PBXGroup;
+			children = (
+				F30A3A901FC573190019C460 /* AlerViewControllerTesting */,
+				F30A3AA91FC573190019C460 /* AlerViewControllerTestingTests */,
+				F30A3AB41FC573190019C460 /* AlerViewControllerTestingUITests */,
+				F30A3A8F1FC573190019C460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F30A3A8F1FC573190019C460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F30A3A8E1FC573190019C460 /* AlerViewControllerTesting.app */,
+				F30A3AA61FC573190019C460 /* AlerViewControllerTestingTests.xctest */,
+				F30A3AB11FC573190019C460 /* AlerViewControllerTestingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F30A3A901FC573190019C460 /* AlerViewControllerTesting */ = {
+			isa = PBXGroup;
+			children = (
+				F30A3A911FC573190019C460 /* AppDelegate.h */,
+				F30A3A921FC573190019C460 /* AppDelegate.m */,
+				F30A3A941FC573190019C460 /* ViewController.h */,
+				F30A3A951FC573190019C460 /* ViewController.m */,
+				F30A3A971FC573190019C460 /* Main.storyboard */,
+				F30A3A9A1FC573190019C460 /* Assets.xcassets */,
+				F30A3A9C1FC573190019C460 /* LaunchScreen.storyboard */,
+				F30A3A9F1FC573190019C460 /* Info.plist */,
+				F30A3AA01FC573190019C460 /* main.m */,
+				F30A3AC31FC577FF0019C460 /* Theme.xcassets */,
+			);
+			path = AlerViewControllerTesting;
+			sourceTree = "<group>";
+		};
+		F30A3AA91FC573190019C460 /* AlerViewControllerTestingTests */ = {
+			isa = PBXGroup;
+			children = (
+				F30A3AAA1FC573190019C460 /* AlerViewControllerTestingTests.m */,
+				F30A3AAC1FC573190019C460 /* Info.plist */,
+			);
+			path = AlerViewControllerTestingTests;
+			sourceTree = "<group>";
+		};
+		F30A3AB41FC573190019C460 /* AlerViewControllerTestingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F30A3AB51FC573190019C460 /* AlerViewControllerTestingUITests.m */,
+				F30A3AB71FC573190019C460 /* Info.plist */,
+			);
+			path = AlerViewControllerTestingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F30A3A8D1FC573190019C460 /* AlerViewControllerTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30A3ABA1FC573190019C460 /* Build configuration list for PBXNativeTarget "AlerViewControllerTesting" */;
+			buildPhases = (
+				F30A3A8A1FC573190019C460 /* Sources */,
+				F30A3A8B1FC573190019C460 /* Frameworks */,
+				F30A3A8C1FC573190019C460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlerViewControllerTesting;
+			productName = AlerViewControllerTesting;
+			productReference = F30A3A8E1FC573190019C460 /* AlerViewControllerTesting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F30A3AA51FC573190019C460 /* AlerViewControllerTestingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30A3ABD1FC573190019C460 /* Build configuration list for PBXNativeTarget "AlerViewControllerTestingTests" */;
+			buildPhases = (
+				F30A3AA21FC573190019C460 /* Sources */,
+				F30A3AA31FC573190019C460 /* Frameworks */,
+				F30A3AA41FC573190019C460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30A3AA81FC573190019C460 /* PBXTargetDependency */,
+			);
+			name = AlerViewControllerTestingTests;
+			productName = AlerViewControllerTestingTests;
+			productReference = F30A3AA61FC573190019C460 /* AlerViewControllerTestingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F30A3AB01FC573190019C460 /* AlerViewControllerTestingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30A3AC01FC573190019C460 /* Build configuration list for PBXNativeTarget "AlerViewControllerTestingUITests" */;
+			buildPhases = (
+				F30A3AAD1FC573190019C460 /* Sources */,
+				F30A3AAE1FC573190019C460 /* Frameworks */,
+				F30A3AAF1FC573190019C460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30A3AB31FC573190019C460 /* PBXTargetDependency */,
+			);
+			name = AlerViewControllerTestingUITests;
+			productName = AlerViewControllerTestingUITests;
+			productReference = F30A3AB11FC573190019C460 /* AlerViewControllerTestingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F30A3A861FC573190019C460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "gideon bamuleseyo";
+				TargetAttributes = {
+					F30A3A8D1FC573190019C460 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F30A3AA51FC573190019C460 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F30A3A8D1FC573190019C460;
+					};
+					F30A3AB01FC573190019C460 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F30A3A8D1FC573190019C460;
+					};
+				};
+			};
+			buildConfigurationList = F30A3A891FC573190019C460 /* Build configuration list for PBXProject "AlerViewControllerTesting" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F30A3A851FC573190019C460;
+			productRefGroup = F30A3A8F1FC573190019C460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F30A3A8D1FC573190019C460 /* AlerViewControllerTesting */,
+				F30A3AA51FC573190019C460 /* AlerViewControllerTestingTests */,
+				F30A3AB01FC573190019C460 /* AlerViewControllerTestingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F30A3A8C1FC573190019C460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30A3A9E1FC573190019C460 /* LaunchScreen.storyboard in Resources */,
+				F30A3AC41FC577FF0019C460 /* Theme.xcassets in Resources */,
+				F30A3A9B1FC573190019C460 /* Assets.xcassets in Resources */,
+				F30A3A991FC573190019C460 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30A3AA41FC573190019C460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30A3AAF1FC573190019C460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F30A3A8A1FC573190019C460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30A3A961FC573190019C460 /* ViewController.m in Sources */,
+				F30A3AA11FC573190019C460 /* main.m in Sources */,
+				F30A3A931FC573190019C460 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30A3AA21FC573190019C460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30A3AAB1FC573190019C460 /* AlerViewControllerTestingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30A3AAD1FC573190019C460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30A3AB61FC573190019C460 /* AlerViewControllerTestingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F30A3AA81FC573190019C460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30A3A8D1FC573190019C460 /* AlerViewControllerTesting */;
+			targetProxy = F30A3AA71FC573190019C460 /* PBXContainerItemProxy */;
+		};
+		F30A3AB31FC573190019C460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30A3A8D1FC573190019C460 /* AlerViewControllerTesting */;
+			targetProxy = F30A3AB21FC573190019C460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F30A3A971FC573190019C460 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30A3A981FC573190019C460 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F30A3A9C1FC573190019C460 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30A3A9D1FC573190019C460 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F30A3AB81FC573190019C460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F30A3AB91FC573190019C460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F30A3ABB1FC573190019C460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlerViewControllerTesting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lytestech.AlerViewControllerTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F30A3ABC1FC573190019C460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlerViewControllerTesting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lytestech.AlerViewControllerTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F30A3ABE1FC573190019C460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlerViewControllerTestingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lytestech.AlerViewControllerTestingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlerViewControllerTesting.app/AlerViewControllerTesting";
+			};
+			name = Debug;
+		};
+		F30A3ABF1FC573190019C460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlerViewControllerTestingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lytestech.AlerViewControllerTestingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlerViewControllerTesting.app/AlerViewControllerTesting";
+			};
+			name = Release;
+		};
+		F30A3AC11FC573190019C460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlerViewControllerTestingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lytestech.AlerViewControllerTestingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlerViewControllerTesting;
+			};
+			name = Debug;
+		};
+		F30A3AC21FC573190019C460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlerViewControllerTestingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lytestech.AlerViewControllerTestingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlerViewControllerTesting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F30A3A891FC573190019C460 /* Build configuration list for PBXProject "AlerViewControllerTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30A3AB81FC573190019C460 /* Debug */,
+				F30A3AB91FC573190019C460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30A3ABA1FC573190019C460 /* Build configuration list for PBXNativeTarget "AlerViewControllerTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30A3ABB1FC573190019C460 /* Debug */,
+				F30A3ABC1FC573190019C460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30A3ABD1FC573190019C460 /* Build configuration list for PBXNativeTarget "AlerViewControllerTestingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30A3ABE1FC573190019C460 /* Debug */,
+				F30A3ABF1FC573190019C460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30A3AC01FC573190019C460 /* Build configuration list for PBXNativeTarget "AlerViewControllerTestingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30A3AC11FC573190019C460 /* Debug */,
+				F30A3AC21FC573190019C460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F30A3A861FC573190019C460 /* Project object */;
+}
